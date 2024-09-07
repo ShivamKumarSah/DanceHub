@@ -1,0 +1,25 @@
+.reg-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -390px;
+}
+
+.reg-card {
+    background-image: url("../assets/cta-bkg.png");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 100px 0;
+    width: 60vw;
+    color: white;
+    text-align: center;
+}
+
+.reg-h {
+    color: white;
+    font-family: poppins;
+    font-size: 45px;
+    margin: 20px;
+}

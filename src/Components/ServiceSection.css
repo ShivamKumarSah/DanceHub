@@ -1,0 +1,27 @@
+.background-section {
+    position: relative;
+    background-image: url("https://themeholy.com/wordpress/danza/wp-content/uploads/2023/09/service_bg_1-2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: white;
+    /* Adjust text color for readability */
+    z-index: 1;
+    /* Ensures content stays above the overlay */
+    overflow: hidden;
+    /* Prevents any overflow issues */
+}
+
+.background-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    /* Adjust the overlay darkness */
+    z-index: -1;
+    /* Ensures the overlay is behind the content */
+}

@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    /* Ensure it stays above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+    /* Center the nav items */
+    flex-grow: 1;
+    /* Allow collapse to grow and center content */
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    /* Space between nav items */
+}
+
+.navbar-brand {
+    margin-right: auto;
+    /* Push the brand logo to the left */
+}
+
+.nav-item {
+    /* font-weight: 700; */
+    text-transform: uppercase;
+    font-size: medium;
+    margin-right: 20px;
+    /* Adjust text color if needed */
+}
+
+.bg-white {
+    background-color: #ffffff !important;
+}
+
+.bg-red-600 {
+    background-color: #dc2626;
+    color: #ffffff;
+}
+
+.learn-more-button {
+    margin-left: auto;
+    /* Push the button to the right */
+}
